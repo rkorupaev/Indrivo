@@ -217,7 +217,7 @@
     display: flex;
 }
 
-.buy-fonts__content {
+.fonts-container__buy-font {
     justify-content: center;
     align-items: center;
 }
