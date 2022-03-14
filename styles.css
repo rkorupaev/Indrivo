@@ -58,14 +58,6 @@
     opacity: 0.5;
 }
 
-.buy-fonts__content {
-    display: none;
-}
-
-.fonts-container__content {
-    display: flex;
-}
-
 .font-list {
     display: flex;
     flex-direction: column;
@@ -204,4 +196,12 @@
 .font-list__item-label:hover,
 .highlighted-font__label:hover {
     opacity: 0.7;
+}
+
+.content {
+    display: none;
+}
+
+.content--active {
+    display: flex;
 }
