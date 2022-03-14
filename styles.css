@@ -18,7 +18,7 @@
     overflow: hidden;
 }
 
-.fonts-container {
+.fonts-container__wrapper {
     border: 2px solid lightgrey;
     border-radius: 6px;
     padding: 40px;
@@ -83,6 +83,7 @@
     border: 1px solid black;
     border-radius: 12px;
     min-width: 140px;
+    width: 140px;
     height: 140px;
 }
 
@@ -226,7 +227,7 @@
         width: auto;
     }
 
-    .fonts-container {
+    .fonts-container__wrapper {
         padding: 20px;
     }
 
@@ -246,11 +247,16 @@
     .highlighted-font__imagelike-wrapper {
         margin-right: 20px;
         min-width: 85px;
+        width: 85px;
         height: 85px;
     }
 
     .highlighted-font__imagelike-block {
         height: 61px;
         padding: 8px;
+    }
+
+    .highlighted-font__imagelike-letter {
+        font-size: 16px;
     }
 }
